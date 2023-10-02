@@ -1,3 +1,5 @@
-# Web日記作成アプリケーション(制作途中)
+# 日記作成Webアプリケーション(制作途中)
+使用技術
 - python(Django)
-- bootstrap
+- Bootstrap
+
