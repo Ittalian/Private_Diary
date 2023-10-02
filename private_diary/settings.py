@@ -80,10 +80,10 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'private_diary',
-        # 'USER': os.environ.get('DB_USER'),
-        # 'PASSWORD': os.environ.get('DB_PASSWORD'),
-        'USER': 'postgres',
-        'PASSWORD': 'itta0329',
+        'USER': os.environ.get('DB_USER'),
+        'PASSWORD': os.environ.get('DB_PASSWORD'),
+        # 'USER': 'postgres',
+        # 'PASSWORD': 'itta0329',
         'HOST': '',
         'PORT': '',
     }
@@ -166,3 +166,7 @@ LOGGING = {
         },
     }
 }
+
+STATICFILES_DIRS = (
+    os.path.join(BASE_DIR, 'static'),
+)
