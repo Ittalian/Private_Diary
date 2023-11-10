@@ -9,7 +9,7 @@
             <div class="row gx-4 gx-lg-5 my-div-style">
                 <div class="col-md-10 col-lg-8 col-xl-7 w-100">
                     <div class="clearfix">
-                        <a class="btn btn-third float-end"href="#">新規作成</a>
+                        <a class="btn btn-third float-end"href="{% url 'diary_create' %}">新規作成</a>
                     </div>
                         {% for diary in diary_list %}
                             <div class="post-preview">
